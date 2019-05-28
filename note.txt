@@ -5,7 +5,7 @@ django-admin startproject myblog
 2) project structure
 文件1说明：与项目进行交互的命令行工具集的入口
 -
--manage.py
+-manage.py            -----------------------------------------
 -启动一个小型的服务器：
 -python manage.py runserver
 -可以改变一个自定认端口：
