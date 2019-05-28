@@ -38,4 +38,15 @@ blog应用目录说明
 
 Quit the server with CIRL-BREAK
 
-正在学习那个Admin章节了
+创建超级用户
+python manage.py createsuperuser
+Password: liuwanghua
+UserName: admin
+
+关于python缩进错误总结1：https://www.cnblogs.com/helloworldcc/p/9460515.html
+
+---------------------------------------------------------
+https://www.imooc.com/video/13968
+学习到：博客主页面
+时间： 2：49 /  7:29
+----------------------------------------------------------

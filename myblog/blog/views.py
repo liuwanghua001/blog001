@@ -2,6 +2,8 @@
 from django.shortcuts import render
 # Database note.txt
 from . import models
+
+
 def index(request):
     # 获取模型数据对象的实例,这里是查到数据库里面的
     article = models.Article.objects.get(pk=1)
