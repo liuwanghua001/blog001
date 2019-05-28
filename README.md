@@ -1,2 +1,2 @@
 # blog001
-- [Markdown](https://www.hao9669.com)
+- [Markdown](http://www.hao9669.com)
