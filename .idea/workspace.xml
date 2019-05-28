@@ -61,8 +61,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="430" />
     <option name="y" value="19" />
+=======
+    <option name="x" value="537" />
+    <option name="y" value="78" />
+>>>>>>> d59049a5ae051a0b0df6df57748925b7855e7b39
     <option name="width" value="1215" />
     <option name="height" value="820" />
   </component>
@@ -89,7 +94,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myblog/blog2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
