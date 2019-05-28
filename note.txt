@@ -1,1 +1,41 @@
 
+1) new project:
+django-admin startproject myblog
+
+2) project structure
+文件1说明：与项目进行交互的命令行工具集的入口
+-
+-manage.py
+-启动一个小型的服务器：
+-python manage.py runserver
+-可以改变一个自定认端口：
+-python manage.py runserver 自定义端口号
+--
+--python服务器网关接口，写的网站进行通信的接口（python应用与web服务器之间的接口）：
+--wsgi.py
+--url配置文件，django项目中所有地址和页面都需要我们自己去配置其URL:
+--urls.py
+--整个项目中最核心的文件（项目总配置文件），里面包含了数据库、web应用、时间等各种配置
+--sittings.py
+--python中声明模块的文件,有了它myblog(项目)就变成了一个模块:
+--__init__.py
+----------------------------------------------------------------------------------------------
+创建应用
+1、进入项目中manage.py同级目录
+2、输入命令：python manage.py startapp blog
+3、添加新应用名（blog）到settings.py中的INSTALLED_APPS里,注意应用名称不能和python中的模块名相同。
+
+blog应用目录说明
+-blog
+--migrations文件夹：数据移值（迁移）模块，他下面的模块都是自动生成的：
+--migrations
+---__init__.py 是一个模块
+--__init__.py 也是一个模块
+--admin.py 该应用的后台管理系统配置
+--models.py 数据模型模块，使用ORM框架，类似于MVC结构中的Models（模型）
+--tests.py 自动化测试模块，django提供自动化测试功能，需要在这里编写相应的代码即可针对性的自动化测试脚本
+--views.py 执行响应的代码所在模块，代码逻辑处理的主要地点，项目中大部分代码都在这里面编写
+
+Quit the server with CIRL-BREAK
+
+正在学习那个Admin章节了
