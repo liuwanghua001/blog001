@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+# jjlfjs
 urlpatterns = [
     # 这里每一个url都是一个函数，每个函数都有很多种配置方式
     # 参数1：url的址 参数2：一个池
