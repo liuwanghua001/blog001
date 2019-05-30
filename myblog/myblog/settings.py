@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'blog2'
+    'blog2',
 ]
 
 # MIDDLEWARE翻译成中文叫中间键，简点说就是django自带的工具集
