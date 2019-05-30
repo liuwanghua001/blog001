@@ -6,8 +6,11 @@
 </head>
 <body>
 
-<!-- 这里的 {{article.title}}是读取数据库里面的内容-->
-<h2 style="color:#090;font-size:20px;">{{article.title}}</h2>
-<p style="color:#CCC;">{{article.content}}</p>
+<!--  -->
+<h2>新文章</h2>
+{% for article in articles %}
+<a href="javascropt:void(0);">{{article.title}}</a>
+<p>{{article.content}}</p>
+{% endfor %}
 </body>
 </html>
