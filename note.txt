@@ -46,8 +46,8 @@ UserName: admin
 关于python缩进错误总结1：https://www.cnblogs.com/helloworldcc/p/9460515.html
 
 ---------------------------------------------------------
-Websize: https://www.imooc.com/video/13971
-Study：博客撰写页面开发
+https://www.imooc.com/video/13976
+admin增强
 Time：00  / 00
 ----------------------------------------------------------
 

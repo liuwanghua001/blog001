@@ -7,7 +7,7 @@
 <body>
 
 <!--  -->
-<h2><a href="{% url 'blog:edit_page' %}">添加新文章</a></h2>
+<h2><a href="{% url 'blog:edit_page' 0 %}">添加新文章</a></h2>
 {% for article in articles %}
 <a href="{% url 'blog:article_page' article.id %}">{{article.title}}</a>
 <p>{{article.content}}</p>
